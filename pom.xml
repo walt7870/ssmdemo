@@ -94,6 +94,16 @@
       <artifactId>spring-context-support</artifactId>
       <version>${spring.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-websocket</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-messaging</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
     <!--<dependency>-->
       <!--<groupId>org.springframework</groupId>-->
       <!--<artifactId>spring-aop</artifactId>-->
@@ -186,6 +196,11 @@
       <!--<artifactId>freemarker</artifactId>-->
       <!--<version>2.3.22</version>-->
     <!--</dependency>-->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.6.1</version>
+    </dependency>
 
     <dependency>
       <groupId>com.googlecode.json-simple</groupId>
@@ -199,6 +214,32 @@
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>fluent-hc</artifactId>
+      <version>4.5.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.5.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.17.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>10.0.1</version>
     </dependency>
 
 
